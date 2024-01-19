@@ -13,7 +13,7 @@ function App() {
     },
     {
       id: 2,
-      text: "Ir pra academia",
+      text: "Ir ao gym",
       category: "Pessoal",
       isCompleted: false,
     },
