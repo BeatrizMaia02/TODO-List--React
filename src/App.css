@@ -1,0 +1,89 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2f363c;
+    margin: 0;
+    padding: 30px;
+   background-image: url('./img/fundo.jpg');
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.app{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(235, 228, 218);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+p{
+  margin: 10px 0;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+button{
+  cursor: pointer;
+  background-color: #314951;
+  border-radius: 5px;
+  border: none;
+  color: #f5f5f5;
+  font-size: 16px;
+  padding: 10px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  margin-right: 10px;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+input,select{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.concluir{
+  background-color: #317e5e;
+}
+
+.remover{
+  background-color: #d9534f;
+}
+
+.todo-list{
+  text-align: left;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 251, 247);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+
+
+
